@@ -1,0 +1,6 @@
+\.idea/
+instagramclone/\.idea/
+instagramclone/__pycache__/
+instagramclone/instagramclone/__pycache__/
+instagramclone/instagramcloneapp/__pycache__/
+instagramclone/users/__pycache__/
