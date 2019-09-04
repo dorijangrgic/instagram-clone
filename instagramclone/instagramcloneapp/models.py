@@ -5,7 +5,7 @@ User = get_user_model()
 
 
 def user_post_path(instance, filename):
-    return 'posts/user_{0}/{1}'.format(instance.id, filename)
+    return 'posts/user_{0}/{1}'.format(instance.author.id, filename)
 
 
 class Post(models.Model):

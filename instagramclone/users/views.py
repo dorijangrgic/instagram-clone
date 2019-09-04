@@ -30,7 +30,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
 class FollowView(APIView):
 
-    def get(self, request, pk):
+    def put(self, request, pk):
         user = request.user
         user_to_follow = CustomUser.objects.get(pk=pk)
 
